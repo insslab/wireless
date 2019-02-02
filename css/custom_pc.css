@@ -1,0 +1,11 @@
+/* Custom CSS added after bootstrap */
+
+body { padding-top: 60px; }
+
+.question {
+  font-size: 18px;
+  font-weight: 200;
+  font-style:italic;
+  margin-top: 20px;
+  line-height: 1.4;
+}

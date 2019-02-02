@@ -1,0 +1,483 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>无线网络技术教程</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom_pc.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  </head>
+
+  <body data-spy="scroll" data-offset="70" data-target="#myNavbar" id="home">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">WNT</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-responsive-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#authors">关于我们</a></li>
+            <li class="active"><a href="#course">课程简介</a></li>
+            <li><a href="#bookview">教材和选用高校</a></li>
+            <li><a href="#resource">电子资源</a></li>
+            <li><a href="#experiment-teaching-system">实验教学系统</a></li>
+            <li><a href="#faq">常见问题</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <body data-spy="scroll" data-offset="70" data-target="#myNavbar" id="home">
+     <p style="text-align:right;"><font size=5 > <strong>切换到</strong>: <a href="index.html">手机版</a></font></p>
+
+    <div class="jumbotron">
+      <div class="container" align="center">
+        <h1>无线网络技术课程</h1>
+        <p>专注无线网络技术的教学研究</p>
+        <img align="central" src="images/my2Dbarcodes.png" class="img-responsive" width="150" height="150">
+        <br />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row row-padded">
+        <div class="col-lg-3">
+          <h3><i class="fa fa-rocket fa-lg"></i> 实验驱动教学</h3>
+          <!--p class="lead text-muted">3x faster communication.</p>
+          <p>Using a novel coflow scheduling algorithm, Varys minimizes communication times of data-parallel applications without starving anyone. </p-->
+        </div>
+        <div class="col-lg-3">
+          <h3><i class="fa fa-clock-o fa-lg"></i> 理论实验融合</h3>
+          <!--p class="lead text-muted">2x more often on time.</p>
+          <p>Varys uses admission control to support soft deadlines for timely completion of most coflows. </p-->
+        </div>
+        <div class="col-lg-3">
+          <h3><i class="fa fa-gears fa-lg"></i> 内容迭代更新</h3>
+          <!--p class="lead text-muted">Informed cluster sharing.</p>
+          <p>Using Varys, coexisting applications, frameworks, or users avoid collateral damage when optimizing respective communication performance. </p-->
+        </div>
+        <div class="col-lg-3">
+          <h3><i class="fa fa-magic fa-lg"></i> 课外实践扩展</h3>
+          <!--p class="lead text-muted">No changes to user jobs.</p>
+          <p>Transfers data from sources to destinations without tweaking the number of connections or playing with bytes-in-flight in each connection. </p-->
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="container">
+		<div class="row  row-padded">
+        	<div class="col-lg-12">
+            
+        <h3 id="authors"><span style="text-decoration:underline">关于我们</span></h3>
+          		<p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;"><strong>金光</strong> (jinguang&lt&ltAT&gt&gtnbu.edu.cn)，男，宁波大学信息学院教授，研究生导师，毕业于浙江大学计算机科学与技术专业，获工学博士学位，研究方向：无线网络、物联网、网络协议等，近几年在教育部计算机类教指委主办的“全国高等学校计算机网络类专业教育与教学研讨会”(2015扬州大学，2016山东大学，2017宁波大学)受邀担任主讲嘉宾，做大会报告。</p>
+          		<p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;"><strong>江先亮</strong> (jiangxianliang&lt&ltAT&gt&gtnbu.edu.cn)，男，宁波大学信息学院讲师，毕业于浙江大学计算机科学与技术专业，获工学博士学位，研究方向：数据驱动网络协议、高速无线网络传输、软件定义控制与虚拟化、无线传感网与安全等。</p>
+				<p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;"><strong>无线网络实验教学服务群QQ：627673170</strong></p>
+				<p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;"><strong>欢迎各位授课老师加入。</strong></p>
+			</div>
+      	</div>
+    </div>
+    <hr>
+
+    <div class="container">
+      	<div class="row row-padded">
+        	<div class="col-lg-12">
+				<h3 id="bookview"><span style="text-decoration:underline">教材和选用高校</span></h3>
+    		<p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;">本书围绕各种主流无线网络技术，系统介绍无线网络技术的原理、应用和相关实验。全书共12章，内容包括无线通信基础知识、无线局域网、无线城域网/无线广域网/蜂窝网络、卫星网络和空天信息网络、无线自组织网、无线传感网、无线个域网、物联网、无线车载网和智能交通、无线体域网、无线室内定位、无线智能家居网、无线网络安全等。</p>
+				<p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;">本书内容新颖，覆盖全面，突出“理论+应用+实践”的特色，电子资源丰富。针对各种无线网络，本书先阐述原理，然后介绍应用实例，考虑到大多数学校对于实验环节的要求，提供了丰富的实验内容供师生选择使用。</p>
+				<p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;">本书可作为计算机、通信、电子、自动化、物联网、网络工程、信息安全等专业的本科生/硕士生/在职研究生学习“无线网络技术”、“网络实践技术”等课程的教学用书，“计算机网络”等课程的补充内容和参考书，以及相关领域工程技术人员的参考书。</p>
+				<p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;">本书为浙江省重点教材、浙江省优秀教材、浙江省新形态教材。</p>
+			</div>
+      	</div>
+      	<div class="row">
+        	<div class="col-lg-4">
+          		<div class="thumbnail">
+            		<a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07220201.html"><img src="images/wnt-v3.jpg" class="img-responsive" width="160" height="210"></a>
+            		<!--div class="caption">
+              		<p>
+                	<em>Per-flow fairness:</em> The average FCT and CCT are respectively 3.4 and 4 time units.
+              		</p>
+            		</div-->
+          		</div>
+        	</div>
+        	<div class="col-lg-4">
+          		<div class="thumbnail">
+            		<a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_05130301.html"><img src="images/wnt-v2.jpg" class="img-responsive" width="160" height="210"></a>
+            		<!--div class="caption">
+              		<p>
+                	<em>Per-flow prioritization:</em>
+              		</p>
+            		</div-->
+          		</div>
+        	</div>
+        	<div class="col-lg-4">
+          		<div class="thumbnail">
+            		<a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_03735101.html"><img src="images/wnt-v1.jpg" class="img-responsive" width="160" height="210"></a>
+            		<!--div class="caption">
+              		<p>
+                	<em>Varys with inter-coflow scheduling:</em> The average FCT and CCT are both 3 time units.
+              		</p>
+            		</div-->
+          		</div>
+        	</div>
+        	<p style="text-align:right;line-height:140%;margin-bottom:2px;word-break:break-all;"><strong>在线购买</strong>: <a href="https://www.amazon.cn/%E9%AB%98%E7%AD%89%E9%99%A2%E6%A0%A1%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E8%A7%84%E5%88%92%E6%95%99%E6%9D%90-%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B-%E5%8E%9F%E7%90%86%E5%BA%94%E7%94%A8%E4%B8%8E%E5%AE%9E%E9%AA%8C-%E9%87%91%E5%85%89/dp/B06XNMJNMQ/ref=sr_1_5?s=books&ie=UTF8&qid=1494313823&sr=1-5&keywords=%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B"><u>亚马逊</u></a>; <a href="http://product.dangdang.com/24216222.html"><u>当当网</u></a>; <a href="https://item.jd.com/12151164.html"><u>京东商城</u></a>; <a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.35.PLW1OZ&id=547239830541&ns=1&abbucket=1"><u>天猫商城</u></a>;  </p>
+      	</div>
+
+      <hr>
+
+      <div style="text-align:center">
+             <img src="images/map.jpg"  width="350" height="250">
+             	<p style="line-height:140%;margin-bottom:2px;word-break:break-all;"><CENTER>截止2018.1，已被200余所高校选为教学用书</CENTER></p>
+        </div>
+
+        <p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;">按省份及学校首字母排序</p>
+        <p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;">安徽：安徽科技学院等；&nbsp;北京：北京师范大学等；&nbsp;重庆：重庆邮电大学等；&nbsp;福建：华侨大学等；&nbsp;甘肃：兰州城市学院等；&nbsp;广东：华南理工大学等；&nbsp;广西：广西大学等；&nbsp;贵州：贵州大学等；&nbsp;海南：三亚学院等；&nbsp;河北：河北师范大学等；&nbsp;河南：河南大学等；&nbsp;湖北：武汉大学等；&nbsp;湖南：国防科技大学等；&nbsp;吉林：东北师范大学等；&nbsp;江苏：江苏大学等；&nbsp;江西：南昌大学等；&nbsp;辽宁：辽宁工业大学等；&nbsp;内蒙古：内蒙古大学等；&nbsp;宁夏：宁夏理工学院等；&nbsp;青海：青海民族大学等；&nbsp;山东：中国石油大学（华东）等；&nbsp;山西：大同大学等；&nbsp;陕西：长安大学等；&nbsp;上海：上海师范大学等；&nbsp;四川：四川大学等；&nbsp;天津：南开大学等；&nbsp;西藏：西藏民族大学等；&nbsp;新疆：喀什大学等；&nbsp;云南：昆明理工大学等；&nbsp;浙江：浙江大学等</p>
+
+        <p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;"><a href="resource/college_list.html"><u>点击查看完整名单</u></a></p>
+
+    </div>
+    <hr>
+
+    <div class="container">
+  	<div class="row  row-padded">
+        	<div class="col-lg-12">
+
+        <p id="course"><strong>课程简介</strong></p>
+          		<p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;">面对社会的需求，高校课程也应求新求变，与时俱进。针对网络领域技术不断进步和教学需要，中国计算机学会的旗舰刊物《中国计算机学会通讯》(2016年第9期)专题介绍了“赛博新经济”(清华大学)、“互联网创新创业”(清华大学)、“移动互联网”(上海交大)和“无线网络技术”(宁波大学)4门代表性新兴课程。这些课程也被全国各校的计算机科学与技术、网络工程、物联网工程、通信工程等专业陆续纳入课程计划。</p>
+<!--          		
+        <div style="text-align:center">
+             <img src="images/course1.png"  width="200" height="250">
+             <p style="text-align:center;">中国计算机学会通讯期刊</p>
+             <img src="images/tmp3.png"  width="200" height="250">
+             <p style="text-align:center;">中国计算机学会通讯目录</p>
+        </div>
+-->
+
+        <div class="row">
+        	<div class="col-lg-6">
+          		<div class="thumbnail">
+            		<img src="images/course1.png"  width="200" height="250">
+                <p style="text-align:center;">中国计算机学会通讯期刊</p>
+          		</div>
+        	</div>
+
+
+          <div class="row">
+        	<div class="col-lg-6">
+          		<div class="thumbnail">
+            		<img src="images/course2.png"  width="200" height=250">
+                <p style="text-align:center;">中国计算机学会通讯目录</p>
+          		</div>
+        	</div>
+          </div>
+        <p style="text-indent:2em; text-align:justify;line-height:140%;word-break:break-all;">“无线网络技术”课程是面向网络工程、物联网工程、通信、计算机、电子、自动化、信息安全等专业或方向的选修课。是在传统“计算机网络”课程之后进一步的知识学习和延伸，重点围绕各种主流的无线网络技术和应用。学生将系统掌握无线网络的主要基础知识，深入学习和领会多种主流无线网络协议的工作原理和功能、无线网络协议仿真技术、无线网络应用的设计方法等专业知识。</p>
+        <p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;"><strong>教研论文: </strong><a href="resource/ccf.pdf"><u>金光, 江先亮, 苏成龙. 无线网络技术：从章节到独立课程，中国计算机学会通讯，2016,12(9):25-30.</u></a></p>
+        <p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;"><strong>公众号文章1: </strong><a href="http://mp.weixin.qq.com/s/F0-UWRd8uX2dfKmTrAmRcw "><u>无线网络技术课程，你学过了吗？清华大学出版社书圈公众号，2017.05.17.</u></a></p>
+        <p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;"><strong>公众号文章2: </strong><a href="https://mp.weixin.qq.com/s?__biz=MzIyMDUyODkyNQ==&mid=100000379&idx=1&sn=411059019613322b361c9b60bfc1e02b&chksm=17cbea0920bc631febf5f0797bf1a1cf9867edb4bf40818fe15b18c62e11a3439859757b43b7&mpshare=1&scene=23&srcid=0602rggdl7BOs56GDs21Tudu#rd"><u>看视频，做实验，无线网络课程实验系统申请试用啦，NetEXP网络实验公众号，2017.06.02.</u></a></p>
+
+        <p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;"><strong>公众号文章3: </strong><a href="https://mp.weixin.qq.com/s?__biz=MzI5MzIwNDI1MQ==&mid=2650118055&idx=4&sn=23ab6a31b679a86786a7c7c5e74ee4f2&chksm=f4748fd3c30306c5854fb6c57a8b78e6718ecb40d7397d04feb8676e117ee11e1f6daf391460&mpshare=1&scene=1&srcid=0703xceP241uBNxQREOmMJzr#rd"><u>网络工程专业(方向)如何开设无线网络技术课程，清华大学出版社书圈公众号，2017.06.21.</u></a></p>
+
+        
+        	</div>
+      	</div>
+    </div>
+    <hr>
+
+    <div class="container">
+      	<div class="row">
+        	<div class="col-lg-12">
+        <p id="resource"><strong>电子资源</strong></p>
+        <p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;word-break:break-all;">在清华大学出版社网站输入"无线网络技术教程"搜索，选择第3版并下载相应电子资源(<span><a href="http://www.thinkmesh.net/wireless/"><u>http://www.thinkmesh.net/wireless/</u></a></span>)</p>
+        
+				<p style="text-indent:2em; text-align:justify;line-height:140%;margin-bottom:2px;"><strong>第3版电子资源包括：</strong></p>
+				<ul>
+          <li>本科生课程教学大纲(工程教育认证版)<a href="resource/无线网络技术教学大纲20170715.doc"><u>下载</u></a>；/*仅供参考*/</li>
+					<li>第3版课件(全部共12章ppt)<a href="resource/无线网络技术教程(第3版)电子课件20170312.rar"><u>下载</u></a>；</li>
+          <li>第3版习题答案<a href="resource/无线网络技术教程(第3版)习题答案20170310.pdf"><u>下载</u></a>；</li>
+          <li>期末考试样卷（任课教师可联系我们）</li>
+          <hr style=" height:2px;border:none;border-top:2px dotted #185598;" />
+          <p><strong>标准版实验资源：</strong></p>
+          <li>第3版实验手册(实验箱标准版3.3.1)<a href="resource/无线网络技术实验箱实验手册20171218.pdf"><u>下载</u></a>；</li>
+          <li>第3版实验环境和源代码(实验箱标准版3.3)<a href="http://fastswitch.org/nd.jsp?id=55&_np=2_617"><u>获取渠道</u></a>；</li>
+          <li>第3版实验视频(实验箱标准版3.3)<a href="exp_demo.html"><u>下载</u></a>；</li>
+          <hr style=" height:2px;border:none;border-top:2px dotted #185598;" />
+		  <p><strong>增强版实验资源：</strong></p>
+          <li>实验手册(实验箱增强版3.4.3)<a href="resource/无线网络技术实验箱实验手册20181129.pdf"><u>下载</u></a>；</li>
+		  <li>实验环境和源代码(实验箱标准版3.4.2)<a href="http://fastswitch.org/nd.jsp?id=55&_np=2_617"><u>获取渠道</u></a>；</li>
+		  <li>实验视频(实验箱增强版3.4.2)<a href="exp_demo.html"><u>下载</u></a>；</li>
+		  <hr style=" height:2px;border:none;border-top:2px dotted #185598;" />
+          <p><strong>DIY版(自建实验环境)实验资源：</strong></p>
+          <li>第3版实验手册(DIY版3.2)<a href="resource/无线网络技术教程(第3版)实验手册20170805.pdf"><u>下载</u></a>；</li>
+          <li>第3版实验虚拟镜像文件(DIY版3.2)<span><a href="https://pan.baidu.com/s/1n3tR8zp7WNzV3UXK5zSHLw "><u>百度网盘</u></a></span> (提取密码：ece7)；</li>
+          <li>第3版实验安装包和源代码(DIY版3.2)<a href="resource/无线网络技术教程(第3版)实验安装包和源代码20170318.rar"><u>下载</u></a>；</li>
+          <li>第3版实验动画(DIY版3.2)<a href="resource/无线网络技术教程(第3版)实验动画20170318.rar"><u>下载</u></a>；</li>
+				</ul>
+					<p style="text-indent:2em; text-align:justify;line-height:140%;word-break:break-all;">以上网址如有变化，我们将会在出版社网站上及时更新通知，也请在本网站上查看。</p>
+				  </div>
+      	</div>
+    </div>
+    <hr>
+
+    <div class="container">
+    	<div class="row">
+    		<div class="col-lg-12">
+        
+        <center id="experiment-teaching-system"><font size=5 color="#4f81bd">实验教学系统</font></center>
+        <center><font size=3>新兴，前沿，实践，应用，开发</font></center>
+        <br />
+
+				<h4><span>无线网络和物联网实验教学系统</span></h4>
+        <ul>
+          <li><font size=4><a href="#ets-1"><u>1. 关于我们</u></a></font></li>
+          <li><font size=4><a href="#ets-2"><u>2. 实验教学系统的组成</u></a></font></li>
+          <li><font size=4><a href="#ets-3"><u>3. 实验教学系统的用户对象</u></a></font></li>
+          <li><font size=4><a href="#ets-4"><u>4. 开发实验系统的动机和目的</u></a></font></li>
+          <li><font size=4><a href="#ets-5"><u>5. 实验教学系统的优势</u></a></font></li>
+          <li><font size=4><a href="#ets-6"><u>6. 实验项目介绍</u></a></font></li>
+          <li><font size=4><a href="#ets-7"><u>7. 实验教学实例和视频</u></a></font></li>
+          <li><font size=4><a href="#ets-8"><u>8. 实验学时和学期安排</u></a></font></li>
+          <li><font size=4><a href="#ets-9"><u>9. 无线网络技术教学社区</u></a></font></li>
+          <li><font size=4><a href="#ets-10"><u>10. 多功能实验箱的购买</u></a></font></li>
+        </ul>
+
+      	<p id="ets-1"><strong>1. 关于我们</strong></p>
+				<p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">本教学系统致力于推动“无线网络技术”相关新兴课程的教学改革和课程创新实践，由高等学校畅销教科书《无线网络技术教程》课题组(<span><a href="http://www.thinkmesh.net/wireless/"><u>http://www.thinkmesh.net/wireless/</u></a></span>)和湖南新实网络技术公司(<span><a href="http://fastswitch.org/"><u>http://fastswitch.org/</u></a></span>)联手开发，精心打造。</p>
+        <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">《无线网络技术教程——原理、应用与实验》（清华大学出版社，2017年3月第3版，2014年5月第2版，2011年10月第1版）课题组是目前国内高校IT专业中“无线网络”等相关新兴课程领域的领先建设者。本书几年来已被全国超过200所高校选为教学用书，包括众多985、211和地方重点高校。和同类教材相比，本书的一大特色是实验实践环节。课题组自始至终坚持理论与实践充分结合的理念，秉承开放共享的原则，提供了全套电子教案、实验环境、实验源码、实验视频、实验手册等。目前本书第3版内容全面更新，随书配套电子和实验资源见清华大学出版社网站(<span><a href="http://www.tup.tsinghua.edu.cn/booksCenter/book_07220201.html"><u>http://www.tup.tsinghua.edu.cn/booksCenter/book_07220201.html</u></a></span>)。</p>
+				<p style="text-indent:2em;text-align:justify;word-break:break-all;">湖南新实网络技术有限公司(<span><a href="http://fastswitch.org/"><u>http://fastswitch.org/</u></a></span>)是国内计算机网络领域最具技术实力的教学科研设备供应商之一，开发的针对软件定义网络(SDN)课程的NetMagic系列设备已在清华大学、国防科大、东南大学、湖南大学、河北大学等众多高校的“计算机网络”、“路由与交换技术”、“高级网络技术”等课程得以广泛应用。并协助支持了多项863计划、973计划、国家自然科学基金、省市级科技项目。公司是中国计算机学会主办的中国计算机大会(CNCC)、中国互联网学术年会(ICOC)、全国高校网络工程专业建设研讨会等赞助商。</p>
+      
+        <p id="ets-2"><strong>2. 实验教学系统的组成</strong></p>
+        <ul>
+					<li>无线网络技术实验手册，电子版超200页，含20项实测实验+15项仿真实验；</li>
+					<li>多功能无线网络和物联网实验箱，包含全部对应的硬件和软件；</li>
+					<li>所有实验源代码/执行文件/说明等；</li>
+					<li>面向各种协议的仿真实验环境；</li>
+					<li>所有实测/仿真实验的操作视频；</li>
+				</ul>
+        <p style="text-indent:2em;text-align:justify;word-break:break-all;">将结合技术进步、应用发展和教学需求，不断更新实验教学系统的上述组成内容。</p>
+			
+      	<p id="ets-3"><strong>3.实验教学系统的用户对象</strong></p>
+        <ul>
+					<li>修读“无线网络技术”或相近课程的普通高校学生，包括计算机科学与技术、网络工程、物联网工程、通信工程、软件工程、信息安全、电子、自动化等专业本科生/硕士生/在职研究生等；</li>
+					<li>普通高校IT相关专业实验室的开放性实验（无线网络或物联网）的学习者；</li>
+					<li>对无线网络/物联网/智能嵌入式应用系统开发有兴趣，但缺乏实践能力和经验的初学者；</li>
+					<li>有志于开发软硬件结合的科技作品，参加物联网竞赛、挑战杯学术作品竞赛等的参赛者；</li>
+					<li>有关领域的工程技术人员。</li>
+				</ul>
+			
+      	<p id="ets-4"><strong>4.开发实验教学系统的动机和目的</strong></p>
+				<p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">信息技术高速发展，目前高校IT部分课程的内容相对陈旧和滞后，难以实现学以致用，影响了教学效果。我们编撰出版《无线网络技术教程》，就是为了推动教学改革，为课程建设注入新鲜内容。教材已提供了自由下载的开放性实验内容，鼓励学生积极锻炼培养动手实践能力。这些实验内容丰富，供师生自主选择，但需自建实验环境。但许多高校师生反映，这种自建实验环境的模式有诸多不利，主要体现在：</p>
+        
+				<ul>
+					<li>教师自建实验环境，增加了教师负担和工作量；</li>
+					<li>有些师生遇到具体实验中的技术问题，缺乏有效咨询和解决途径；</li>
+					<li>有些学校由于各种条件所限，忽略了实验环节，降低了学习效果；</li>
+					<li>由于实验环境不统一和不规范，无法保障实验环节的的教学质量。</li>
+				</ul>
+        <p style="text-indent:2em;text-align:justify;word-break:break-all;">鉴于此，我们推出本实验教学系统，目的如下：</p>
+        <ul>
+					<li>为“无线网络”相关或相近课程提供科学、规范、合理的实验环境；</li>
+					<li>为IT各专业学生针对无线网络和物联网技术领域进行理论学习和应用开发，提供丰富的实验实践教学资源；</li>
+					<li>让教学系统用户和教材读者通过行之有效的实践动手环节，培养软硬件系统的开发设计能力。</li>
+				</ul>
+       
+        <p id="ets-5"><strong>5.实验教学系统的优势</strong></p>
+        <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">我们打造了国内首款面向高校专业教学的“无线网络和物联网实验教学系统”。</p>
+        <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">有一些专业性的教学仪器厂商提供了面向“传感器技术”、“物联网实践”等单一课程的传统意义上的实验箱设备，但是绝大部分实验箱仅面向一种或少数几种特定技术内容的实验，通常以硬件连接、结果验证为主，更多体现重复性操作和过程演练。而对于各种无线网络协议原理、系统功能设计、数据处理分析、软件应用开发等环节较少涉足，难以满足针对各种不同的无线网络和物联网技术原理进行学习的需求，也无法满足学生基于不同的无线网络和物联网技术针对现实生活中的不同场景进行开发、设计和应用的学习需求。</p>
+        <p style="text-indent:2em;text-align:justify;">本实验教学系统致力于体现如下特点：</p>
+				<ul>
+					<li>技术全面，支持几乎各种无线网络技术，如无线局域网/蜂窝网络/卫星网络/无线个域网/无线传感网/物联网应用/无线体域网/车载网络/室内定位/无线网络安全等；</li>
+					<li>原理直观展现，将复杂抽象的各种主流无线网络技术协议原理通过形象可视的实验界面予以展示；</li>
+					<li>提供了多个实测实践项目的完整实现过程，包括硬件组装/驱动烧录/硬件部署/信号测量/数据传输/数据处理/数据查询和显示等，既有硬件应用，也有软件设计开发；</li>
+					<li>为具备一定软件基础但缺乏硬件知识、或者具备一定硬件基础但缺乏通信网络知识的学习者提供有效的途径，以学习和掌握面向无线网络/物联网应用领域的嵌入式应用系统。</li>
+				</ul>
+
+        <p id="ets-6"><strong>6.实验教学系统的实验项目介绍</strong></p>
+        <p style="text-indent:2em;text-align:justify;">仿真实验包括：</p>
+        <ul>
+					<li>构建无线网络仿真实验环境</li>
+					<li>隐藏节点和暴露节点仿真</li>
+					<li>无线城域网WiMax仿真</li>
+					<li>卫星网络系统仿真实验</li>
+					<li>AODV和DSR协议仿真实验</li>
+					<li>DD和S-MAC协议仿真实验</li>
+					<li>水下无线传感网协议仿真实验</li>
+					<li>IEEE 802.15.4和ZBR路由协议仿真实验</li>
+					<li>CoAP协议仿真实验</li>
+					<li>RPL协议仿真实验</li>
+					<li>IEEE 802.11p和VANET协议仿真实验</li>
+					<li>无线室内定位仿真实验</li>
+					<li>无线网络攻击仿真实验</li>
+					<li>Watchdog监测仿真实验</li>
+		</ul>
+        <p style="text-indent:2em;text-align:justify;">实测实验包括：</p>
+        <ul>
+          <li>无线网络环境RSSI测量实验</li>
+          <li>无线局域网组网与管理实验</li>
+          <li>无线局域网信号测量软件开发实验</li>
+          <li>无线局域网数据分组分析实验</li>
+          <li>无线局域网数据发分组分析软件开发实验</li>
+          <li>蜂窝移动网络的数据传输实验</li>
+          <li>GPS室外定位实验</li>
+          <li>Arduino节点安装配置和通信实验</li>
+          <li>ZigBee节点安装和组网基础实验</li>
+          <li>ZigBee的户外环境监测网络实验</li>
+          <li>RFID和NFC数据读写和传输实验</li>
+          <li>树莓派安装和配置WiFi路由器实验</li>
+          <li>Contiki系统系统测试与组网基础实验</li>
+          <li>基于Contiki和RPL的无线传感网组网实测实验</li>
+          <li>无线体域网健康监测系统实验</li>
+		  <li>WiFi无线室内定位实践</li>
+		  <li>基于蓝牙和WiFi的灯控系统</li>
+		  <li>基于MQTT协议的温度实时监测</li>
+		  <li>LoRa通信技术的数据传输实验</li>
+		  <li>机器人环境配置与开发基础</li>
+		  <li>机器人即时定位和地图构建</li>
+		  <li>基于WIFI的无人船控制实验</li>
+		  <li>基于LoRa的远距离无人船控制实验</li>
+        </ul>
+        
+        <p id="ets-7"><strong>7. 实验教学实例和视频</strong></p>
+        <p><strong>本实验视频为《无线网络技术教程》(第3版，清华大学出版社，2017)的配套实验教学视频，目前一共37项实验。</strong></p>
+        <p style="text-align:justify;margin-bottom:2px;word-break:break-all;"><span><a href="exp_demo.html"><u>点击可观看和下载全部实验视频</u></a><span></p>
+        <ul>
+					<li><strong>AODV和DSR协议仿真实验</strong></li>
+          <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">动态源路由协议DSR(Dynamic Source Routing)仿真实验，其中各节点先通过RREQ/RREP(路由请求/路由应答)建立起相互间的路由，然后利用DSR动态源路由协议对各节点之间建立的路由进行确定和维护，提供快速式反应服务，确保数据分组的高效交付。</p>
+          <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">点击链接可看AODV协议仿真实验短视频演示。</p>
+          <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">视频链接：<span><a href="https://v.qq.com/x/page/c05081dcl0j.html"><u>https://v.qq.com/x/page/c05081dcl0j.html</u></a><span></p>
+           <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">百度云下载链接：<span><a href="http://pan.baidu.com/s/1eR9dnoe"><u>http://pan.baidu.com/s/1eR9dnoe</u></a><span> 密码：ob46 </p>
+         
+		   <div style="text-align:center">
+             <img src="images/ex12.png"  width="250" height="250">
+           </div>
+           <p style="text-align:center;">AODV和DSR协议仿真实验</p>
+
+          <li><strong>RFID数据读写/传输实测实验</strong></li>
+
+            <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">RFID读卡器先读取卡号，通过蓝牙模块，将卡号数据发至手机APP(开放源码)中，可与APP中已有卡号信息比对验证。可体会RFID/蓝牙/手机APP等环节连贯性，实际展现了一个真实的卡应用系统开发设计过程。学生可二次开发成面向校园卡(工作卡)的考勤管理、库存管理等，用于毕设或竞赛作品。</p>
+            <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">点击链接可看短视频演示。</p>
+             		  <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">视频链接：<span><a href="https://v.qq.com/x/page/i05095d4tj1.html "><u>https://v.qq.com/x/page/i05095d4tj1.html </u></a><span></p>
+          <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">百度云下载链接：<span><a href="http://pan.baidu.com/s/1bpvmzCz"><u>http://pan.baidu.com/s/1bpvmzCz</u></a><span> 密码：tf3c </p>
+           
+            <div style="text-align:center">
+             <img src="images/ex19.jpg"  width="259" height="250">
+             </div>
+             <p style="text-align:center;">RFID数据读写/传输实测实验</p>
+             	</ul>
+
+        <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">更多实验实例请点击 <span><a href="exp_demo.html "><u>more...</u></a></span></p>
+
+        <p id="ets-8"><strong>8. 实验教学的学时和学期安排</strong></p>
+        <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">以上实验视学生能力不同，需要不同学时，全部完成约24-32学时。教师在具体学时安排中，可考虑选做其中部分实验。</p>
+        <p style="text-indent:2em;text-align:justify;word-break:break-all;">实验教学一般要求和理论课程同步进行，建议可考虑“先实验、后教学”，即前半学期以理论课为主，后半学期以实验课为主。</p>
+			
+        <p id="ets-9"><strong>9. 无线网络技术教学开源社区</strong></p>
+        <p style="text-indent:2em;text-align:justify;word-break:break-all;">我们将致力于打造“无线网络技术教学开源社区”，继续秉承开源共享的原则。</p>
+        <ul>
+					<li>本教学系统中，提供所有实验实例的源码、可执行文件、技术文档等。</li>
+					<li>鼓励各高校师生和教材读者积极参与，共同创造更多更好的无线网络/物联网技术的实验和实践案例，并将其纳入实验教学系统；</li>
+					<li>追随技术进步的步伐，不断推陈出新，引领国内高校“无线网络”相关领域课程的理论和实验教学，为教学改革和创新实践作出贡献。</li>
+				</ul>
+
+        <p id="ets-10"><strong>10. 多功能无线网络和物联网实验箱的购买</strong></p>
+        <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">目前已推出标准版多功能实验箱，由湖南新实网络公司统一销售和提供服务。</p>
+        <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">湖南新实网络：<span><a href="http://fastswitch.org/"><u>http://fastswitch.org/</u></a></span></p>
+        <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">湖南新实网络电话：0731-82033926</p>
+        <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">湖南新实网络客服QQ：2535499817</p>
+			  <p style="text-indent:2em;text-align:justify;"><a href=http://fastswitch.org/nd.jsp?id=55&_np=2_617><u> 点此了解购买详情</u></a></p>
+
+        <p style="text-align:center;"><img src="images/fast2Dbarcodes.png"  width="120" height="120"></p>
+
+
+			</div>
+		</div>
+    </div>
+    <hr>
+
+    <div class="container">
+    	<div class="row">
+    		<div class="col-lg-12">
+				<h3 id="faq"><span style="text-decoration:underline">常见问题(FAQ)</span></h3>
+				<p><strong>1.如何获取本书?</strong></p>
+				<p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">普通读者可在亚马逊、京东、当当网等下单即可。</p>
+        <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">高校教师如需要开设课程使用本书，可访问清华大学出版社(<span><a href="http://www.tup.tsinghua.edu.cn/"><u>http://www.tup.tsinghua.edu.cn/</u></a></span>)申请样书，或直接联系我们。</p>
+
+				<p><strong>2.可以从何处获得本书的电子资源? 是否有教学网站?</strong></p>
+				<p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">进入清华大学出版社网站，在右上角的搜索框中输入"无线网络技术教程"，可找到本书不同版本，点击选择第3版，进入“资源下载”——>“网络资源”和“课件下载”，里面有具体的下载链接。</p>
+				
+        <p style="text-indent:2em;text-align:justify;word-break:break-all;">本书教学网站为<span><a href="http://www.thinkmesh.net/wireless/"><u>http://www.thinkmesh.net/wireless/</u></a></span></p>
+        <p><strong>3.纸质教材和电子资源是否经常更新?</strong></p>
+				<p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">纸质教材计划每3年更新一版，配套的PPT教案、习题答案电子资源等也随之更新。</p>
+				<p style="text-indent:2em;text-align:justify;word-break:break-all;">考虑到技术发展日新月异，我们对实验环节电子资源的更新较频繁，主要包括实验实例、源码、实验手册等，目前是每6个月更新一次，已连续数年。</p>
+
+        <p style="text-indent:2em;text-align:justify;margin-bottom:2px;word-break:break-all;">更多问题请点击 <span><a href="faq.html "><u>more...</u></a></span></p>
+
+      </div>
+		</div>
+    </div>
+    <hr>
+    
+    <!--div class="container">
+      <p class="text-muted">
+        Varys is being developed in the <a href="https://amplab.cs.berkeley.edu">AMPLab</a> by <a href="http://www.mosharaf.com">Mosharaf Chowdhury</a>, <a href="http://www.columbia.edu/~yz2561/">Yuan Zhong</a>, and <a href="http://www.cs.berkeley.edu/~istoica">Ion Stoica</a>.
+      </p>
+      <p class="text-muted">
+        This research is supported in part by NSF CISE Expeditions Award CCF-1139158, LBNL Award 7076018, and DARPA XData Award FA8750-12-2-0331, and gifts from Amazon Web Services, Google, SAP,  The Thomas and Stacey Siebel Foundation, Apple, Inc., C3Energy, Cisco, Cloudera, EMC, Ericsson, Facebook, GameOnTalis, Guavus, HP, Huawei, Intel, Microsoft, NetApp, Pivotal, Splunk, Virdata, VMware, WANdisco and Yahoo!.
+      </p>
+    </div-->
+	<div class="copyright">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-sm-12">
+                	<p style="text-align:center;">Copyright &copy; 2017. <a href="http://expo.bootcss.com">ThinkMesh.net</a> |
+                	<a href="http://www.miibeian.gov.cn/" target="_blank">浙ICP备15007198号</a></p>
+            	</div>
+        	</div>
+    	</div>
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script>
+      /**
+       * Check a href for an anchor. If exists, and in document, scroll to it.
+       * If href argument ommited, assumes context (this) is HTML Element,
+       * which will be the case when invoked by jQuery after an event
+       */
+      function scroll_if_anchor(href) {
+          href = typeof(href) == "string" ? href : $(this).attr("href");
+
+          // You could easily calculate this dynamically if you prefer
+          var fromTop = 60;
+
+          // If our Href points to a valid, non-empty anchor, and is on the same page (e.g. #foo)
+          // Legacy jQuery and IE7 may have issues: http://stackoverflow.com/q/1593174
+          if(href.indexOf("#") == 0) {
+              var $target = $(href);
+
+              // Older browser without pushState might flicker here, as they momentarily
+              // jump to the wrong position (IE < 10)
+              if($target.length) {
+                  $('html, body').animate({ scrollTop: $target.offset().top - fromTop });
+                  if(history && "pushState" in history) {
+                      history.pushState({}, document.title, window.location.pathname + href);
+                      return false;
+                  }
+              }
+          }
+      }
+      // When our page loads, check to see if it contains and anchor
+      scroll_if_anchor(window.location.hash);
+      // Intercept all anchor clicks
+      $("body").on("click", "a", scroll_if_anchor);
+    </script>
+  </body>
+</html>
